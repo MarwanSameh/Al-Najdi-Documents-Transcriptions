@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ali_Elnagdy_Birth_Certificate">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ali Elnagdy Birth Certificate Transcription</title>
+                <author>Al Matareya Health Bureau</author>
+                <respStmt>
+                    <resp>Creation of a machine-readable text transcription</resp>
+                    <name>Marwan Sameh Ibrahim</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation of transcrip</resp>
+                    <name>Marwan Sameh Ibrahim</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Marwan Sameh Ibrahim</authority>
+                <pubPlace>
+                    <address>
+                        <addrLine>Digital Egypt Builders Initiative (DEBI)</addrLine>
+                        <addrLine>El Gezira Youth Center</addrLine>
+                        <addrLine>Zamalek, Cairo, Egypt</addrLine>
+                    </address>
+                </pubPlace>
+                <date when="1926-04-17">2022-08-22</date>
+                <availability>
+                    <p>This work is licensed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Official Extract</title>
+                    <editor>Unknown</editor>
+                    <pubPlace>
+                        <address>
+                            <addrLine>Al Matareya Health Bureau</addrLine>
+                            <addrLine>Al Matareya, Al Daqahleya, Egypt</addrLine>
+                        </address>
+                    </pubPlace>
+                    <date when="1926-04-17">1926-04-17</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="../../../Encoding/documents/Images//Birth_Certificate_Small.jpg" n="1r"/>
+            <zone xml:id="mohammedElnagdy" lry="486" lrx="1210" uly="366" ulx="703"/>
+            <zone xml:id="matareyaBureau" lry="403" lrx="1526" uly="283" ulx="1183"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="section">
+                <head>Original Text</head>
+                <figure>
+                    <graphic url="../../../Encoding/documents/Images//Birth_Certificate_Small.jpg"
+                        width="790px" height="1000px"/>
+                </figure>
+                <div type="subsection">
+                    <pb n="1" facs="#Birth_Certificate.jpg"/>
+                    <head place="above">Official Extract</head>
+                    <p> Released from <hi rend="italic underline" facs="#matareyaBureau">Al-Matareya
+                            Health Bureau</hi>
+                        <lb/>Name and place of residence of the applicant <hi
+                            rend="italic underline">Sheikh Mohammed Al-Sayyid Al-Najdi</hi>
+                        <space quantity="9" unit="chars"/>
+                        <hi rend="italic underline">Al-Matareya</hi>
+                        <lb/>The subject of which the extract is required <hi
+                            rend="italic underline">Birth certificate of his son Ali</hi>
+                        <lb/>Extracted from the book of <hi rend="italic underline">birth records of
+                            Al-Matareya Health Bureau</hi>
+                        <space quantity="9" unit="chars"/> In the year <hi rend="italic underline"
+                            >1926</hi>
+                        <space quantity="9" unit="chars"/> Page <hi rend="italic underline">75</hi>
+                        <space quantity="9" unit="chars"/> Part <hi rend="italic underline"
+                            >first</hi>
+                        <lb/>Date of permission to give the extract__________ <space quantity="9"
+                            unit="chars"/> In the year 192_ <space quantity="9" unit="chars"/>
+                        Number__________ <space quantity="9" unit="chars"/> Of__________ <space
+                            quantity="9" unit="chars"/>
+                        <lb/>Collected fees <hi rend="italic underline">0120 Millime</hi> Warrant
+                        number <hi rend="italic underline">114794</hi> On <hi
+                            rend="italic underline">11th of April</hi> In the year <hi
+                            rend="italic underline">1926</hi> Treasury of <hi
+                            rend="italic underline">Al-Matareya Health Bureau</hi>
+                    </p>
+                </div>
+                <div type="subsection">
+                    <head place="above">The Requested Extract</head>
+                    <p> Upon searching, it was found that the aforementioned records affirmatively
+                        confirmed the presence on the date of the eighth of April of the year
+                        one-thousand nine-hundred (900) <lb/>and twenty six (6) AD under the number
+                        274 the name Ali with the name of the father being Mohammed Al-Sayyid
+                        Al-Najdi <lb/>of a Muslim religion, Egyptian nationality, scientist as an
+                        occupation and the name of the mother being Zainab Soliman <lb/>Al-Rayyes of
+                        a Muslim religion, Egyptian nationality, none as an occupation dated
+                        <lb/>the eighth of November in the year one-thousand nine-hundred (900)
+                        AD... <lb/>The newborn was undocumented on birth, and executing upon a court
+                        ruling of the courthouse in Esna to which the Esna Prosecution office 5051
+                        <lb/>is affiliated, first number April of the year 1926 on 483 </p>
+                </div>
+                <div type="subsection">
+                    <head place="above">Footer</head>
+                    <p> True copy <space quantity="9" unit="chars"/>Released on <hi
+                            rend="italic underline">4/11</hi>In the year 192<hi
+                            rend="italic underline">6</hi><space quantity="9" unit="chars"
+                        />(Signature of the writer) <lb/>Handed over without the government’s
+                        responsibility whatsoever on what is included within and the rights of
+                        others <lb/>(Signature of the pen heads)<space quantity="9" unit="chars"
+                        />(Signature of the head of the department or the manager or the governor)
+                        <lb/>Released on <hi rend="italic underline">the 17th of April</hi> in the
+                        year 192<hi rend="italic underline">6</hi>
+                        <lb/>Stamp of the body from which the extract was issued <lb/>(Amiri Press
+                        6230/1920/15000) </p>
+                </div>
+            </div>
+            <div type="section">
+                <head>Description and Breakdown</head>
+                <div type="subsection">
+                    <head place="above">Who</head>
+                    <p>This section describes the people mentioned within the document</p>
+                    <list type="bulleted">
+                        <item>Ali Mohammed El-Najdy</item>
+                        <item>Sheikh Mohammed Al-Sayyid El-Najdi</item>
+                        <item>Zainab Soliman Al-Rayyes</item>
+                    </list>
+                    <table>
+                        <row>
+                            <cell role="label">Name</cell>
+                            <cell role="label">Relation</cell>
+                            <cell role="label">Date of Birth</cell>
+                            <cell role="label">Occupation</cell>
+                        </row>
+                        <row>
+                            <cell role="data">Ali Mohammed Al-Najdi</cell>
+                            <cell role="data">Son</cell>
+                            <cell role="data">1900</cell>
+                            <cell role="data">Teacher/Schoolmaster</cell>
+                        </row>
+                        <row>
+                            <cell facs="#mohammedElnagdy">Mohammed Al-Sayyid Al-Najdi</cell>
+                            <cell role="data">Father</cell>
+                            <cell role="data">Unknown</cell>
+                            <cell role="data">Scientist (Islamic Theologian)</cell>
+                        </row>
+                        <row>
+                            <cell role="data">Zainab Soliman Al-Rayyes</cell>
+                            <cell role="data">Mother</cell>
+                            <cell role="data">Unknown</cell>
+                            <cell role="data">None</cell>
+                        </row>
+                    </table>
+
+                    <div type="subsection">
+                        <head place="above">The Son</head>
+                        <listPerson>
+                            <person>
+                                <persName>
+                                    <forename>Ali</forename>
+                                    <surname>Al-Najdi</surname>
+                                    <space quantity="9" unit="chars"/>
+                                </persName>
+                                <birth when="1900-11-08">8th of November 1900</birth>
+                                <space quantity="9" unit="chars"/>
+                                <sex value="male">Male</sex>
+                            </person>
+                        </listPerson>
+                    </div>
+                    <div type="subsection">
+                        <head place="above">The Father</head>
+                        <listPerson>
+                            <person>
+                                <persName>
+                                    <forename>Sheikh Mohammed</forename>
+                                    <surname>Al-Sayyed Al-Najdi</surname>
+                                    <space quantity="9" unit="chars"/>
+                                </persName>
+                                <birth>Unknown</birth>
+                                <space quantity="9" unit="chars"/>
+                                <sex value="male">Male</sex>
+                            </person>
+                        </listPerson>
+                    </div>
+                    <div type="subsection">
+                        <head place="above">The Mother</head>
+                        <listPerson>
+                            <person>
+                                <persName>
+                                    <forename>Zeinab</forename>
+                                    <surname>Soliman Al-Rayyes</surname>
+                                    <space quantity="9" unit="chars"/>
+                                </persName>
+                                <birth>Unknown</birth>
+                                <space quantity="9" unit="chars"/>
+                                <sex value="female">Female</sex>
+                            </person>
+                        </listPerson>
+                    </div>
+                    <div type="subsection">
+                        <head>Notes</head>
+                        <list>
+                            <item><note>"Sheikh" in this context is not a name, but rather a title
+                                    used to refer to an Islamic scholar or a person whose job is to
+                                    lead the people in prayer (used interchangebly with Imam).
+                                    Sometimes "Sheikh" refers to a person of old age, but is used to
+                                    refer to an Islamic scholar in this case.</note></item>
+
+                            <item><note>"Al-Sayyed" in this context is not a name, but rather a
+                                    title used to refer to a family name; the word is equivalent to
+                                    "sir" in English</note></item>
+
+                            <item><note>The date of birth of the father and mother is unknown
+                                    specifically, but it is believed to be around the
+                                    1870s-1880s</note></item>
+                        </list>
+                    </div>
+
+                    <note>The word <hi rend="italic">scientist</hi> in this text refers to a scholar
+                        of Islamic theology, and often Sheikh in Al-Azhar mosque</note>
+                </div>
+                <div type="subsection">
+                    <head place="above">When</head>
+                    <div>
+                        <head type="subsection">Dates Mentioned</head>
+                        <table>
+                            <row>
+                                <cell role="label">Date</cell>
+                                <cell role="label">Significance</cell>
+                            </row>
+
+                            <row>
+                                <cell role="data"><date when="1926-04-08">8th of April
+                                    1926</date></cell>
+                                <cell role="data">Date of performing the search within the
+                                    records</cell>
+                            </row>
+                        </table>
+                    </div>
+
+                </div>
+                <div type="subsection">
+                    <head place="above">Where</head>
+
+                    <div type="subsection">
+                        <head place="above">Name-Place References</head>
+                        <p>The word "Al-Najdi" refers to someone who comes from Najd, which is the
+                            place that forms the center of what is now Saudi Arabia. Najdis, as
+                            people, predate Saudi Arabia as a nation and presence of tribes in the
+                            area predate many world civilizations dating back to the Neolithic
+                            era.</p>
+                        <figure>
+                            <graphic
+                                url="../../../Encoding/documents/Images/1024px-Najd_Region_in_Saudi_Arabia.svg.png"
+                            />
+                        </figure>
+                        <p>Originally, Najd was home to Al-Magar, an advanced culture dating back to
+                            the Neolithic era. Reminants of the civilization date back to <date>9000
+                                BC</date></p>
+                    </div>
+
+                    <div type="subsection">
+                        <head place="above">Map of Al-Matareya, Al-Daqahleya</head>
+                        <figure>
+                            <graphic url="../../../Encoding/documents/Images/Matareya_Dakahliya.png"
+                            />
+                        </figure>
+                    </div>
+
+                    <div>
+                        <head place="above">Coordinates and Satellite View</head>
+                        <p>These are the exact coordinates of the current location of Al Matareya
+                            Health Bureau, the old location has not been found</p>
+                        <figure>
+                            <graphic
+                                url="../../../Encoding/documents/Images/Google_Maps_Screenshot.png"
+                            />
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

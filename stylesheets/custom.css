@@ -1,0 +1,35 @@
+/* Place project-specific CSS here */
+html {
+    width: 90%;
+    margin-right:10em;
+    }
+
+
+
+#teibpToolbox {
+    /* shift the toolbox in the right corner of the page */
+    margin-right:4em;
+    /* make the toolbox invisible */
+    visibility:hidden;
+    }
+
+
+.-teibp-thumbnail {
+    display:block;
+    max-height: 1000px;
+    float:right;
+    }
+
+.-teibp-pb{
+    margin: 0em 0px;
+    }
+
+
+.-teibp-pageNum{
+    font-size:14px;
+    display:block;
+    text-align:left;
+    }
+
+
+            
